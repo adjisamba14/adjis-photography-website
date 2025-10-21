@@ -36,3 +36,36 @@ a:visited{color:var(--gold)}
 
 .footer-nav{margin-top:.5rem;font-size:.95rem}
 .footer-nav a{margin-right:.5rem}
+
+
+/* === BUTTON FIX FOR VISIBILITY & HOVER === */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  background: var(--gold);
+  color: #000; /* black text for contrast */
+  border: 2px solid var(--gold);
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #fff;       /* white hover background */
+  color: var(--gold);     /* gold text on hover */
+  transform: translateY(-2px);
+}
+
+.btn.btn-outline {
+  background: transparent;
+  color: var(--gold);
+  border: 2px solid var(--gold);
+}
+
+.btn.btn-outline:hover {
+  background: var(--gold);
+  color: #000; /* black text when hovered */
+}
+
