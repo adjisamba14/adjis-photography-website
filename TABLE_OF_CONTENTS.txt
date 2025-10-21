@@ -1,0 +1,39 @@
+Table of Contents - Adji's Photography Studio (Final Black & Gold)
+
+- README.txt - File
+- about.html - File
+- assets - Folder
+- booking.html - File
+- cart.html - File
+- checkout.html - File
+- confirmation.html - File
+- contact.html - File
+- css - Folder
+- docs - Folder
+- gallery.html - File
+- index.html - File
+- js - Folder
+- services.html - File
+- touchup.html - File
+
+css/:
+- css/styles.css
+
+js/:
+- js/script.js
+
+assets/images/:
+- assets/images/photo_01.jpg
+- assets/images/photo_02.jpg
+- assets/images/photo_03.jpg
+- assets/images/photo_04.jpg
+- assets/images/photo_05.jpg
+- assets/images/photo_06.jpg
+- assets/images/photo_07.jpg
+- assets/images/photo_08.jpg
+- assets/images/photo_09.jpg
+- assets/images/photo_10.jpg
+- assets/images/photo_11.jpg
+- assets/images/photo_12.jpg
+
+docs/:

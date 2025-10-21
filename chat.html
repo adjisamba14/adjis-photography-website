@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chat • Adji's Photography Studio</title>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.chat-window{background:#0a0a0a;border:1px solid var(--border);border-radius:12px;max-width:720px;margin:0 auto;padding:1rem}
+.chat-messages{min-height:220px;max-height:380px;overflow:auto;border:1px solid var(--border);border-radius:10px;padding:.75rem;margin-bottom:.75rem}
+.msg{padding:.4rem .6rem;margin:.35rem 0;border-radius:8px}
+.msg.agent{background:#111;color:#fff;align-self:flex-start}
+.msg.user{background:#1a1a1a;color:#fff;align-self:flex-end}
+.chat-input{display:flex;gap:.5rem}
+.chat-input input{flex:1}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<header role="banner">
+  <div class="container header-inner">
+    <div class="brand"><a href="index.html"><img src="assets/logo.png" alt="Adji's Photography Studio logo"></a></div>
+    <nav aria-label="Primary"><ul>
+<li><a href="index.html" title="Home">Home</a></li>
+<li><a href="about.html" title="About">About</a></li>
+<li><a href="services.html" title="Services">Services</a></li>
+<li><a href="gallery.html" title="Gallery">Gallery</a></li>
+<li><a href="booking.html" title="Booking">Booking</a></li>
+<li><a href="touchup.html" title="Touch-Up">Touch-Up</a></li>
+<li><a href="crop.html" title="Crop">Crop</a></li>
+<li><a href="chat.html" title="Chat">Chat</a></li>
+<li><a href="cart.html" title="Cart">Cart <span id="cart-count">0</span></a></li>
+<li><a href="checkout.html" title="Checkout">Checkout</a></li>
+<li><a href="confirmation.html" title="Confirmation">Confirmation</a></li>
+<li><a href="contact.html" title="Contact">Contact</a></li>
+</ul></nav>
+  </div>
+</header>
+<main id="main" class="container" role="main">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">Home > Chat</nav>
+  <section class="card">
+    <h1>Customer Service Chat (Prototype)</h1>
+    <div class="chat-window">
+      <div class="chat-messages" aria-live="polite">
+        <div class="msg agent">Hi! How can we help today?</div>
+        <div class="msg user">Do you offer graduation packages?</div>
+        <div class="msg agent">Yes—we do! See Services or Add to Cart to get started.</div>
+      </div>
+      <div class="chat-input">
+        <input type="text" placeholder="Type your message…" aria-label="Message">
+        <button class="btn">Send (Mock)</button>
+      </div>
+    </div>
+  </section>
+</main>
+<footer role="contentinfo">
+  <div class="container">
+    © 2025 Adji's Photography Studio • <a href="mailto:contact@adjisphotographystudio.com">contact@adjisphotographystudio.com</a><div class="footer-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="booking.html">Booking</a><a href="touchup.html">Touch-Up</a><a href="crop.html">Crop</a><a href="chat.html">Chat</a><a href="cart.html">Cart</a><a href="checkout.html">Checkout</a><a href="confirmation.html">Confirmation</a><a href="contact.html">Contact</a></div><br>
+    Last updated: <span id="last-updated"></span>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
